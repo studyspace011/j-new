@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Entry</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button class="btn-back" onclick="window.location.href='index.html'">← Back</button>
+            <h2 id="section-title">Section</h2>
+        </header>
+
+        <form id="journal-form">
+            <textarea id="entry-text" placeholder="Write your thoughts here..." required></textarea>
+            <button type="submit" id="save-btn" class="btn-save"><span class="btn-icon">✓</span>Save Entry</button>
+        </form>
+        <p id="status-msg"></p>
+    </div>
+
+    <script src="js/sync.js"></script>
+    <script src="js/journal.js"></script>
+</body>
+</html>

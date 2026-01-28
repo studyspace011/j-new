@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Journal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Journal</h1>
+            <button id="theme-toggle" class="btn-theme">🌙</button>
+        </header>
+        
+        <div class="menu-grid">
+            <button class="btn-premium" onclick="goToJournal('Morning')"><span class="btn-icon">🌅</span>Morning Entry</button>
+            <button class="btn-premium" onclick="goToJournal('Afternoon')"><span class="btn-icon">☀️</span>Afternoon Entry</button>
+            <button class="btn-premium" onclick="goToJournal('Night')"><span class="btn-icon">🌙</span>Night Entry</button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
